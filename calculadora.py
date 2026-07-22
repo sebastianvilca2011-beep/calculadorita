@@ -1,4 +1,4 @@
-## CALCULADORA - VERSIÓN 2
+## CALCULADORA - VERSIÓN 3
 # Autor(a): sebastian vilca
 # ===========================================
 print("calculadora")
@@ -8,6 +8,7 @@ num2 = float(input("Ingrese el segundo número: "))
 
 print("\n 1. sumar")
 print("\ 2. restar")
+print(" 3. multiplicar")
 
 opcion = input("\n seleccione una opcion: ")
 
@@ -16,5 +17,9 @@ if opcion == "1":
 
         elif opcione == "2":
         print("\n la resta es:" , num1 - num2)
+
+        elif opcion == "3":
+          print("\n la multiplicacion es:" , num1 * num2)
+
         else:
         print("\n opcion no validad.")
